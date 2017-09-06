@@ -5,6 +5,10 @@ The concept is simple: two players gain points by placing on a board, one after 
 the game piece obtained by the game master (in the form of an executable Ruby program).
 The game ends when the game piece cannot be placed anymore. Have fun!
 
+hot to compile: gcc *.c -o filler
+
+How to run: ./filler_vm -p1 user1 -p2 user2 -v -f samples/w1.flr
+
 In this game, two players fight each other. They play one after the other.
 * The goal is to collect as many points as possible by placing the highest number of
 pieces on the the game board.
